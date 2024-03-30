@@ -16,7 +16,7 @@ function EditBook() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:3000/books/${id}`)
+      .get(`https://bookshelf-2mbq.onrender.com/books/${id}`)
       .then((res) => {
         setAuthor(res.data.author);
         setSummary(res.data.summary);
@@ -35,7 +35,7 @@ function EditBook() {
 
     setLoading(true);
     axios
-      .put(`http://localhost:3000/books/create`, data)
+      .put(`https://bookshelf-2mbq.onrender.com/books/create`, data)
       .then(() => {
         setLoading(false);
         navigate("/");

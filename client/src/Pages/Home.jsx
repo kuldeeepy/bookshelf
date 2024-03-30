@@ -14,7 +14,7 @@ function Home() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:3000/books")
+      .get("https://bookshelf-2mbq.onrender.com/books")
       .then((res) => {
         setBooks(res.data);
         setLoading(false);

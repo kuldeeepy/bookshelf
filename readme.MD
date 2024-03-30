@@ -16,7 +16,7 @@
 
 
 ## 🙇 Author
-#### Pujarini Jena
+#### Kuldeep Yadav
 - LinkedIn: [@Kuldeep-yadav](https://www.linkedin.com/in/kuldeeep-yadav/)
 - Github: [@Kuldeep](https://github.com/kuldeeepy)
         
